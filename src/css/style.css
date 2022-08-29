@@ -1,0 +1,190 @@
+body {
+    max-width: 100%;
+}
+
+.cabecalho {
+    padding: 20px;
+    position: relative;
+    background-color: #102133;
+}
+
+.cabecalho .logo {
+    background: url(../images/logo-semfundo.png) center center no-repeat;
+    background-size: 300px;
+    background-position-x: 60px;
+    width: 100%;
+    height: 85px;
+    display: inline-block;
+}
+
+
+
+.cabecalho .logo h1{
+    font-size: 0;
+}
+
+.cabecalho nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 25px;
+}
+
+.cabecalho ul li{
+    display: inline-block;
+    padding: 15px 40px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+    color: #ff9933;
+}
+
+.painel {
+    background: url("../images/frente.jpg") center center no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.painel h2 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.secao-com-texto {
+    padding: 155px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.secao-com-texto h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+.secao-com-texto p {
+    font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p {   
+    font-size: 28px;
+    width: 480px;
+}
+
+.ladrilho div {
+    float: left;
+}
+
+.ladrilho .grande {
+    background: url(../images/tattomodelo.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno {
+    background: url(../images/tattopronta.jpg) center center no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno.finalizada {
+    background: url(../images/tattopronta2.jpg) center center no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio {
+    background: url(../images/tattopronta3.jpg) center center no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 50%;
+}
+
+.contato {
+    background: url(../images/logo-semfundo.png) left no-repeat;
+    background-color: #102133;
+    background-size: 400px;
+    background-position-x: 60px;
+    color: #fff;
+    height: 600px;
+    position: relative;
+}
+
+.contato h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contato address {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contato .texto {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.rodape {
+    background: url(../images/frente.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+    background-color: #ff9933;
+}
+
+.radape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.radape ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.rodape ul li a {
+    color: #fff;
+}
+
+.radape ul li a:hover {
+    font-weight: bold;
+    color: #ff9933;
+}
+
+.radape .copyright {
+    color: #fff;
+}
+
+.radape .redes-sociais .facebook,
+.radape .redes-sociais .instagram {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.radape .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo {
+    margin-top: 40px;
+}
